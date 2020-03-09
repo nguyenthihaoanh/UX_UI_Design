@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wapper
+{
+    box-shadow: 4px 5px 5px #a7d3fa;
+    padding: 10px;
+    margin: 0 auto;
+    background: rgb(222, 247, 250);
+}
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+header img
+{
+    width: 100%;
+    height: 300px;
+}
+
+
+.linearGradient 
+{
+    height: 100px;
+    background: linear-gradient(to bottom, #f7f9fb, #d7e4eb);
+}
+
+
+footer
+{
+    background: linear-gradient(to bottom, #f7f9fb, #d7e4eb);
+    width: 100%;
+    height: 300px; 
+}
+footer .rig
+{
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+}
+footer p 
+{
+    margin-top: 10px;
+    font-size: 20px;
+}
+footer .td
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+footer .left
+{ 
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+footer a
+{
+    padding: 5px 10px;
+    background-color: #dfc9d9;
+    text-decoration: none;
+}
+footer a:hover
+{
+    background-color: #020102bb;
+    color: #fff;
+}
+
+
+.nd
+{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    background: snow;
+}
+
+.section
+{
+    flex: 70%;
+    margin-right: 50px;
+}
+.section a
+{
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
+}
+.aside
+{
+    
+    flex: 30%;
+    width: 300px;
+}
+.aside img{
+    width: 100%;
+    height: 100px;
+}
+ /*Trang Bao*/
+ .section1
+ {
+     flex: 70%;
+     margin-right: 30px;
+     margin-left: 10px;
+     font-size: 20px;
+ }
+ .section1 img
+ {
+     width: 100%;
+     height: 500px;
+ }
+.aside h2
+{
+    color: red;
+}
+.footer1 input
+{
+    border-radius: 10px;
+}
+.footer1 textarea
+{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#id2
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #a7d3fa;
+}
+
+
+
+/* Contact */
+.formContact
+{
+    margin: 0 auto;
+    width: 750px;
+    background-color:lightgray; 
+    font-size: 20px;
+}
+.formContact h1
+{
+    text-align: center;
+}
+.formContact form
+{
+    margin-left: 30px; 
+}
+.formContact button
+{
+    height: 30px;
+    width: 50px;
+    background-color: #790d5e;
+    border-radius: 8px;
+    color: #fff
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="../vender/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="../vender/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../vender/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../JS/jquery.min.js"></script>
+</head>
+<body>
+    <div class="formContact">
+        <h1>Thông Tin Khách Hàng</h1>
+       <!-- <form id="form-contact">
+            <p>Họ và Tên: </p>
+            <input id="name" type="text" name="txtName" value size="100" maxlength="40" placeholder="Vui Lòng Nhập Họ Và Tên"/>
+            <span id="tbHT" class="text-danger">* </span>
+            <p><br/>Ngày Tháng Năm Sinh: </p>
+            <input id="date" type="date" name="txtDate" value size="100" maxlength="40" />
+            <span id="tbNgay" class="text-danger">* </span>
+            <p><br/>CMND: </p>
+            <input id="cmnd" type="text" name="txtCMND" value size="100" maxlength="40" placeholder="Vui Lòng Nhập CMND"/>
+        
+            <p><br/>Email:</p>
+            <input id="email" type="email" name="txtEmail" value size="100" maxlength="40" placeholder="Vui Lòng Nhập Email"/>
+            
+            <p><br/>Phản Hồi Của Quý Khách: </p>
+            <textarea id="cmt" rows="10" cols="40"></textarea><br/>
+            <button id="click">Gửi</button>
+        </form>-->
+            <form role="form" action="" method="POST">
+                <div class="form-group">
+                    <label for="txtHT">Họ và tên</label>
+                    <input type="text" class="form-control" id="txtHT" placeholder="Nhập họ và tên">
+                    <span id="tbHT" class="text-danger">* </span>
+                </div>
+                <div class="form-group">
+                    <label for="txtNgay">Ngày sinh</label>
+                    <input type="date" class="form-control" id="txtNgay">
+                    <span id="tbNgay" class="text-danger">* </span>
+                </div>
+                <div class="form-group">
+                    <label for="txtEmail">Email</label>
+                    <input type="text" class="form-control" id="txtEmail" placeholder="Nhập email">
+                    <span id="tbEmail" class="text-danger">* </span>
+                </div>                       
+                <div class="form-group">
+                    <label for="txtCMND">CMND</label>
+                    <input type="text" class="form-control" id="txtCMND" placeholder="Nhập chứng minh nhân dân">
+                    <span id="tbCMND" class="text-danger">* </span>
+                </div>
+                <p>Ý Kiến Của Khách Hàng</p>
+                <textarea id="cmt" rows="10" cols="40"></textarea><br/>                                
+                <button type="button" id="btnSave" class="btn btn-success btn-block">Lưu</button>
+            </form>
+            <script src="../JS/kt.js"></script>
+    </div>
+</body>
+</html>
